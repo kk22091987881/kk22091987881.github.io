@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Puppy Portfolio</title>
+      <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+   </head>
+   <body>
+      <div class="container">
+         <div class="row">
+            <div class="col-md-6">
+               <img class="super-logo" src="images/images.jpg" alt="main-logo">
+            </div>
+            <div class="col-md-6 text-right text-uppercase">
+               <h1 class="title-super text-thin">Kiran Gattupally</h1>
+               <h3>Front-end Ninja</h3>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12">
+               <hr>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12">
+               <img  data-toggle="modal" data-target="#main-portfolio" class="img-responsive" src="images/SameViewasUglyBridge.jpg" alt="Golden Gate Bridge">
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12">
+               <h2 class="text-muted">Featured Work</h2>
+            </div>
+         </div>
+         <div class="row text-center">
+            <div class="col-md-4">
+               <img data-toggle="modal" data-target="#project1" class="img-responsive" src="images/348s.jpg" alt="Bigsur">
+               <h3><a href="https://en.wikipedia.org/wiki/Big_Sur" target="_blank">Bigsur</a></h3>
+            </div>
+            <div class="col-md-4">
+               <img data-toggle="modal" data-target="#project2" class="img-responsive" src="images/sp.jpg" alt="oakland bridge">
+               <h3><a href="https://en.wikipedia.org/wiki/San_Francisco%E2%80%93Oakland_Bay_Bridge" target="_blank">Oakland</a></h3>
+            </div>
+            <div class="col-md-4">
+               <img data-toggle="modal" data-target="#project3" class="img-responsive" src="images/b889d6b5e35deb2706bf3daf3188bcf1.jpg" alt="san mateo">
+               <h3><a href="https://en.wikipedia.org/wiki/San_Mateo%E2%80%93Hayward_Bridge" target="_blank">Sanmateo</a></h3>
+            </div>
+         </div>
+         <footer class="footer-1">
+            <p>Prepared by kiran</p>
+            <p>Contact information: <a href="mailto:kk22091987881@gmail.com">e-mail</a>.</p>
+         </footer>
+      </div>
+      <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+               </div>
+               <div class="modal-body">
+                  <img class="img-responsive" src="images/348s.jpg" alt="popup-pic">
+                  This was my first project in this class. I learned a lot about HTML and CSS.
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel1">My Favourite App</h4>
+               </div>
+               <div class="modal-body">
+                  <img class="img-responsive" src="images/sp.jpg" alt="popup-pic">
+                  This was my second project in this class. I learned a lot about flex concepts.
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel2">Design Mockup</h4>
+               </div>
+               <div class="modal-body">
+                  <img class="img-responsive" src="images/b889d6b5e35deb2706bf3daf3188bcf1.jpg" alt="popup-pic">
+                  This was my third project in this class. I learned a lot about how to make a page responsive.
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="modal fade" id="main-portfolio" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel3">Favorite App Page</h4>
+               </div>
+               <div class="modal-body">
+                  <img class="img-responsive" src="images/golden-gate.jpg" alt="popup-pic">
+                  I build this portfolio site by using skills which I learned through out this front-end concepts as a part of Full Stack Web Developer Course.I used classes of bootstrap framework like all the image responsive,flex concepts and media queries,break points which play very critical role and some my own css styles.
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

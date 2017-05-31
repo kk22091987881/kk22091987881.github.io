@@ -1,0 +1,1 @@
+After unzip,double click on portfolio in the bootstrap folder.
